@@ -1,3 +1,3 @@
 #Escreva um programa que mostre três palavras diferentes, todos na mesma linha
 
-print('Abacate', 'Morango', 'Python')
+print('Abacate\n','Morango\n','Python\n')
