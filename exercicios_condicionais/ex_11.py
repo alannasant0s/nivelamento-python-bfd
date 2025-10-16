@@ -9,10 +9,10 @@ horario_saida = float(input('Insira o horário da sua saida do curso(ex: 11.00):
 
 if horario_entrada >= 7 and horario_saida <= 11:
     print('Você é um aluno do turno manhã')
-elif horario_entrada >= 13 and horario_entrada <= 17:
+elif horario_entrada >= 13 and horario_saida <= 17:
     print('Você é um aluno do turno tarde')
-elif horario_entrada > 17 and horario_saida <= 22:
+elif horario_entrada >= 19 and horario_saida <= 22:
     print('Você é um aluno do turno da noite')
 else:
-    print('Lamento, você não pertence a nenhuma turma')
+    print('Verifique se os horários foram inseridos corretamente, não foi localizada matrícula nos horários informados')
 
