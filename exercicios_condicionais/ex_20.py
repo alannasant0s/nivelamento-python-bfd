@@ -8,4 +8,4 @@ Digite [2] para dupla \n'''))
 A = int(input('Digite o número de acompanhantes: sendo [0] para nenhum. '))
 
 
-print(f'O valor total a ser pago é R$ {T * 10 + A * 10 } reais.')
+print(f'O valor total a ser pago é R$ {T * 10 + A * 10 :.2f} reais.')
