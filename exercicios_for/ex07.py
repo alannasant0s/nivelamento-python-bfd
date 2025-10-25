@@ -1,11 +1,9 @@
-#Contar vogais em uma palavra
 
-palavra = input('Insira uma palavra: ')
 cont = 0
-vogais = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+vogais = ['a', 'e', 'i', 'o', 'u']
 
-for j in palavra:
-    if j in vogais:
-        cont += 1      
-print(f'A palavra inserida possui {cont} vogais')
-    
+palavra = input('Insira uma palavra: ').lower()
+for i in palavra:
+    if i in vogais:
+        cont += 1
+print(f'A palavra possui {cont} vogais.')
