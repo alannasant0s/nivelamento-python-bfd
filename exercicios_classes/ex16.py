@@ -16,6 +16,10 @@ class Conta:
             print("Valor inválido, digite um valor válido")
 
 cliente1 = Conta()
+cliente1.depositar ()
 print(f"O saldo do cliente1 é: {cliente1.saldo}")
 cliente1.depositar ()
 print(f"O saldo do cliente1 é: {cliente1.saldo}")
+cliente1.depositar ()
+
+print(f"O saldo do cliente1 atualizado é: {cliente1.saldo}")
